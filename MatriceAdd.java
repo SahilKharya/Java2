@@ -8,8 +8,9 @@ public class MatriceAdd {
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 3; j++) {
                 matrix3[i][j] = matrix1[i][j] + matrix2[i][j];
-                System.out.println(matrix3[i][j]);
+                System.out.print(matrix3[i][j]+"  ");
             }
+            System.out.println();
         }
     }
 }
