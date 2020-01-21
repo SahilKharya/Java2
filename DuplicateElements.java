@@ -11,10 +11,12 @@ public class DuplicateElements {
         for (int i = 0; i < 10; i++) {
             myArray[i] = scan.nextLine();
         }
-        duplicates(myArray);
+        extractDuplicates(myArray);
     }
 
-    public static void duplicates(String[] array) {
+    // Method to check an element for duplicates within an Array
+    // prints the elements which are duplicate
+    public static void extractDuplicates(String[] array) {
         System.out.println("The Duplicate elements in an array are: ");
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
