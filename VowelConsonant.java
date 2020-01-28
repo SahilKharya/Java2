@@ -18,15 +18,12 @@ public class VowelConsonant {
                 if (input.charAt(j) == vowels[i]) {
                     vowelCount++;
                 }
-
             }
             if (input.charAt(j) >= 'a' && input.charAt(j) <= 'z') {
                 consonantCount++;
             }
-
-
         }
-        consonantCount = consonantCount-vowelCount;
+        consonantCount = consonantCount - vowelCount;
         System.out.println("No. of Vowels : " + vowelCount);
         System.out.println("No. of Consonants : " + consonantCount);
     }
